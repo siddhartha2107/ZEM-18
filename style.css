@@ -1,0 +1,46 @@
+nav {
+    height: 80px;
+    line-height: 30px;
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    height: 80px;
+    line-height: 30px;
+}
+
+nav .button-collapse i {
+    height: 80px;
+    line-height: 30px;
+}
+
+nav .brand-logo { 
+    font-size: 1.6rem; 
+}
+
+@media only screen and (min-width: 601px){
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+        height: 80px;
+        line-height: 30px;
+    }
+}
+.tabs {
+
+            background-color: #1a237e;
+}
+.tabs .tab a{
+            color:white;
+        } /*Black color to the text*/
+
+     .tabs .tab a:hover {
+            background-color: #1a237e;;
+            color:#000;
+      
+        } /*Text color on hover*/
+      .tabs .tab a.active {
+            color:#000;
+        } /*Background and text color when a tab is active*/
+
+        .tabs .indicator {
+            background-color:grey;
+            color: white;
+        } /*Color of underline*/
