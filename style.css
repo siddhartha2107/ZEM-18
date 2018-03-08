@@ -1,3 +1,6 @@
+.nav-wrapper {
+    background-color: #17142c;
+  }
 nav {
     height: 80px;
     line-height: 30px;
@@ -17,30 +20,24 @@ nav .brand-logo {
     font-size: 1.6rem; 
 }
 
-@media only screen and (min-width: 601px){
-    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-        height: 80px;
-        line-height: 30px;
-    }
-}
 .tabs {
 
-            background-color: #1a237e;
+            background-color: #17142c;
 }
 .tabs .tab a{
             color:white;
         } /*Black color to the text*/
 
-     .tabs .tab a:hover {
-            background-color: #1a237e;;
+.tabs .tab a:hover {
+            background-color: #17142c;;
             color:#000;
       
         } /*Text color on hover*/
-      .tabs .tab a.active {
-            color:#000;
+.tabs .tab a.active {
+            color:#e12a67;
         } /*Background and text color when a tab is active*/
 
-        .tabs .indicator {
+.tabs .indicator {
             background-color:grey;
             color: white;
         } /*Color of underline*/
